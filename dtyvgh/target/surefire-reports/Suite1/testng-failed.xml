@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <parameter name="sheetName" value="Arabic"/>
+  <parameter name="department_url" value="http://learntrakdev.cloudapp.net/Department"/>
+  <parameter name="businessunit_url" value="http://learntrakdev.cloudapp.net/businessunit"/>
+  <parameter name="settings_url" value="http://learntrakdev.cloudapp.net/Settings"/>
+  <parameter name="url" value="http://learntrakdev.cloudapp.net/"/>
+  <parameter name="location_url" value="http://learntrakdev.cloudapp.net/ILT/Location"/>
+  <parameter name="Exp_res_PWD" value="كلمة المرور مطلوبة"/>
+  <parameter name="logout" value="تسجيل الخروج"/>
+  <parameter name="lang_type" value="Arabic"/>
+  <parameter name="Exp_res_UN" value="اسم المستخدم مطلوب"/>
+  <parameter name="verify_url" value="http://learntrakdev.cloudapp.net/"/>
+  <parameter name="place" value="Kuwait"/>
+  <parameter name="authenticate_url" value="http://learntrakdev.cloudapp.net/Account/Login?ReturnUrl=%2F"/>
+  <parameter name="Exp_res_invalid" value="اسم المستخدم وكلمة المرور خاطئين"/>
+  <test name="test1(failed)">
+    <parameter name="sheetName" value="Arabic"/>
+    <parameter name="department_url" value="http://learntrakdev.cloudapp.net/Department"/>
+    <parameter name="businessunit_url" value="http://learntrakdev.cloudapp.net/businessunit"/>
+    <parameter name="settings_url" value="http://learntrakdev.cloudapp.net/Settings"/>
+    <parameter name="url" value="http://learntrakdev.cloudapp.net/"/>
+    <parameter name="location_url" value="http://learntrakdev.cloudapp.net/ILT/Location"/>
+    <parameter name="Exp_res_PWD" value="كلمة المرور مطلوبة"/>
+    <parameter name="logout" value="تسجيل الخروج"/>
+    <parameter name="lang_type" value="Arabic"/>
+    <parameter name="Exp_res_UN" value="اسم المستخدم مطلوب"/>
+    <parameter name="verify_url" value="http://learntrakdev.cloudapp.net/"/>
+    <parameter name="place" value="Kuwait"/>
+    <parameter name="authenticate_url" value="http://learntrakdev.cloudapp.net/Account/Login?ReturnUrl=%2F"/>
+    <parameter name="Exp_res_invalid" value="اسم المستخدم وكلمة المرور خاطئين"/>
+    <classes>
+      <class name="scripts.Login">
+        <methods>
+          <include name="Create_location" invocation-numbers="0"/>
+          <include name="Create_businessunit" invocation-numbers="0"/>
+          <include name="initialise"/>
+          <include name="Create_department" invocation-numbers="0"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- scripts.Login -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
