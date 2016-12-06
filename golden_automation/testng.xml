@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--If you want to change the Language please refer details.xlsx sheet and specify required Language Values in Parameters below -->
+
+<suite name="Suite1">
+   <test name="test1">
+   
+      <parameter name="url" value="http://preview:hunter2@alpha.redmart.com/"/>   
+      <parameter name="username" value="test_1@mailinator.com"/>
+      <parameter name="password" value="welcome"/>
+      
+      <classes>
+         <class name="scripts.objectmap_login" />
+         <!-- class name="util.BackUp" /-->
+      </classes>
+      
+   </test>
+</suite>

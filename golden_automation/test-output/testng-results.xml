@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49119" started-at="2015-11-27T05:46:48Z" finished-at="2015-11-27T05:47:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49119" started-at="2015-11-27T05:46:48Z" finished-at="2015-11-27T05:47:37Z">
+      <class name="scripts.objectmap_login">
+        <test-method status="PASS" signature="initialise(java.lang.String)[pri:0, instance:scripts.objectmap_login@61a52fbd]" name="initialise" is-config="true" duration-ms="11652" started-at="2015-11-27T13:46:48Z" finished-at="2015-11-27T13:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://preview:hunter2@alpha.redmart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:scripts.objectmap_login@61a52fbd]" name="login" duration-ms="9137" started-at="2015-11-27T13:46:59Z" finished-at="2015-11-27T13:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_1@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="FoodOrder()[pri:0, instance:scripts.objectmap_login@61a52fbd]" name="FoodOrder" duration-ms="12744" started-at="2015-11-27T13:47:08Z" finished-at="2015-11-27T13:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FoodOrder -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:scripts.objectmap_login@61a52fbd]" name="logout" is-config="true" duration-ms="15555" started-at="2015-11-27T13:47:21Z" finished-at="2015-11-27T13:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:scripts.objectmap_login@61a52fbd]" name="Quit" is-config="true" duration-ms="193" started-at="2015-11-27T13:47:37Z" finished-at="2015-11-27T13:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- scripts.objectmap_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

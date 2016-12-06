@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="password" value=""/>
+  <parameter name="url" value="http://preview:hunter2@alpha.redmart.com/"/>
+  <parameter name="username" value=""/>
+  <test name="test1(failed)">
+    <parameter name="password" value=""/>
+    <parameter name="url" value="http://preview:hunter2@alpha.redmart.com/"/>
+    <parameter name="username" value=""/>
+    <classes>
+      <class name="scripts.Scenario1">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="initialise"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- scripts.Scenario1 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

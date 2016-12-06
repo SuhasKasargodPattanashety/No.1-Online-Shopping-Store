@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="password" value="welcome"/>
+  <parameter name="url" value="http://preview:hunter2@alpha.redmart.com/"/>
+  <parameter name="username" value="test_1@mailinator.com"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="scripts.ObjectMap_TestScenario">
+        <methods>
+          <include name="setup"/>
+          <include name="FoodOrder"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- scripts.ObjectMap_TestScenario -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
