@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Redmart_Console]">
+  <test name="Search(failed)">
+    <classes>
+      <class name="Driver.DriverScript">
+        <methods>
+          <include name="Run"/>
+        </methods>
+      </class> <!-- Driver.DriverScript -->
+    </classes>
+  </test> <!-- Search(failed) -->
+</suite> <!-- Failed suite [Redmart_Console] -->
